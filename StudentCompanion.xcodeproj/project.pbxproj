@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB63E0272E6B602200C82FD2 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = AB63E0262E6B602200C82FD2 /* Auth */; };
+		AB63E0292E6B602200C82FD2 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = AB63E0282E6B602200C82FD2 /* Functions */; };
+		AB63E02B2E6B602200C82FD2 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = AB63E02A2E6B602200C82FD2 /* PostgREST */; };
+		AB63E02D2E6B602200C82FD2 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = AB63E02C2E6B602200C82FD2 /* Realtime */; };
+		AB63E02F2E6B602200C82FD2 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = AB63E02E2E6B602200C82FD2 /* Storage */; };
+		AB63E0372E6BAF7B00C82FD2 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = AB63E0362E6BAF7B00C82FD2 /* Auth */; };
+		AB63E0392E6BAF7B00C82FD2 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = AB63E0382E6BAF7B00C82FD2 /* Functions */; };
+		AB63E03B2E6BAF7B00C82FD2 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = AB63E03A2E6BAF7B00C82FD2 /* PostgREST */; };
+		AB63E03D2E6BAF7B00C82FD2 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = AB63E03C2E6BAF7B00C82FD2 /* Realtime */; };
+		AB63E03F2E6BAF7B00C82FD2 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = AB63E03E2E6BAF7B00C82FD2 /* Storage */; };
+		ABB5F84E2E58216D00C977F3 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = ABB5F84D2E58216D00C977F3 /* Supabase */; };
+		ABC382302E15983400E4B1CD /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = ABC3822F2E15983400E4B1CD /* GoogleSignIn */; };
+		ABC382332E15985600E4B1CD /* GoogleAPIClientForREST_Calendar in Frameworks */ = {isa = PBXBuildFile; productRef = ABC382322E15985600E4B1CD /* GoogleAPIClientForREST_Calendar */; };
+		ABRC00042E7F000000000004 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = ABRC00022E7F000000000002 /* RevenueCat */; };
+		ABRC00052E7F000000000005 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = ABRC00032E7F000000000003 /* RevenueCatUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA4EE922DD838A20068853B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA4EE792DD8389E0068853B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA4EE802DD8389E0068853B;
+			remoteInfo = StudentCompanion;
+		};
+		ABA4EE9C2DD838A20068853B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA4EE792DD8389E0068853B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA4EE802DD8389E0068853B;
+			remoteInfo = StudentCompanion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABA4EE812DD8389E0068853B /* StuCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA4EE912DD838A20068853B /* StudentCompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentCompanionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA4EE9B2DD838A20068853B /* StudentCompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentCompanionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ABFE00012EFE000000000001 /* Exceptions for "StudentCompanion" folder in "StuCo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ABA4EE802DD8389E0068853B /* StuCo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ABA4EE832DD8389E0068853B /* StudentCompanion */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ABFE00012EFE000000000001 /* Exceptions for "StudentCompanion" folder in "StuCo" target */,
+			);
+			path = StudentCompanion;
+			sourceTree = "<group>";
+		};
+		ABA4EE942DD838A20068853B /* StudentCompanionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StudentCompanionTests;
+			sourceTree = "<group>";
+		};
+		ABA4EE9E2DD838A20068853B /* StudentCompanionUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StudentCompanionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA4EE7E2DD8389E0068853B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB63E0392E6BAF7B00C82FD2 /* Functions in Frameworks */,
+				AB63E02D2E6B602200C82FD2 /* Realtime in Frameworks */,
+				AB63E02B2E6B602200C82FD2 /* PostgREST in Frameworks */,
+				AB63E03D2E6BAF7B00C82FD2 /* Realtime in Frameworks */,
+				AB63E0372E6BAF7B00C82FD2 /* Auth in Frameworks */,
+				AB63E0292E6B602200C82FD2 /* Functions in Frameworks */,
+				ABC382302E15983400E4B1CD /* GoogleSignIn in Frameworks */,
+				AB63E03B2E6BAF7B00C82FD2 /* PostgREST in Frameworks */,
+				AB63E02F2E6B602200C82FD2 /* Storage in Frameworks */,
+				AB63E03F2E6BAF7B00C82FD2 /* Storage in Frameworks */,
+				ABC382332E15985600E4B1CD /* GoogleAPIClientForREST_Calendar in Frameworks */,
+				AB63E0272E6B602200C82FD2 /* Auth in Frameworks */,
+				ABB5F84E2E58216D00C977F3 /* Supabase in Frameworks */,
+				ABRC00042E7F000000000004 /* RevenueCat in Frameworks */,
+				ABRC00052E7F000000000005 /* RevenueCatUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA4EE8E2DD838A20068853B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA4EE982DD838A20068853B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA4EE782DD8389E0068853B = {
+			isa = PBXGroup;
+			children = (
+				ABA4EE832DD8389E0068853B /* StudentCompanion */,
+				ABA4EE942DD838A20068853B /* StudentCompanionTests */,
+				ABA4EE9E2DD838A20068853B /* StudentCompanionUITests */,
+				ABA4EE822DD8389E0068853B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA4EE822DD8389E0068853B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA4EE812DD8389E0068853B /* StuCo.app */,
+				ABA4EE912DD838A20068853B /* StudentCompanionTests.xctest */,
+				ABA4EE9B2DD838A20068853B /* StudentCompanionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA4EE802DD8389E0068853B /* StuCo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA4EEA52DD838A20068853B /* Build configuration list for PBXNativeTarget "StuCo" */;
+			buildPhases = (
+				ABA4EE7D2DD8389E0068853B /* Sources */,
+				ABA4EE7E2DD8389E0068853B /* Frameworks */,
+				ABA4EE7F2DD8389E0068853B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ABA4EE832DD8389E0068853B /* StudentCompanion */,
+			);
+			name = StuCo;
+			packageProductDependencies = (
+				ABC3822F2E15983400E4B1CD /* GoogleSignIn */,
+				ABC382322E15985600E4B1CD /* GoogleAPIClientForREST_Calendar */,
+				ABB5F84D2E58216D00C977F3 /* Supabase */,
+				AB63E0262E6B602200C82FD2 /* Auth */,
+				AB63E0282E6B602200C82FD2 /* Functions */,
+				AB63E02A2E6B602200C82FD2 /* PostgREST */,
+				AB63E02C2E6B602200C82FD2 /* Realtime */,
+				AB63E02E2E6B602200C82FD2 /* Storage */,
+				AB63E0362E6BAF7B00C82FD2 /* Auth */,
+				AB63E0382E6BAF7B00C82FD2 /* Functions */,
+				AB63E03A2E6BAF7B00C82FD2 /* PostgREST */,
+				AB63E03C2E6BAF7B00C82FD2 /* Realtime */,
+				AB63E03E2E6BAF7B00C82FD2 /* Storage */,
+				ABRC00022E7F000000000002 /* RevenueCat */,
+				ABRC00032E7F000000000003 /* RevenueCatUI */,
+			);
+			productName = StudentCompanion;
+			productReference = ABA4EE812DD8389E0068853B /* StuCo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA4EE902DD838A20068853B /* StudentCompanionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA4EEA82DD838A20068853B /* Build configuration list for PBXNativeTarget "StudentCompanionTests" */;
+			buildPhases = (
+				ABA4EE8D2DD838A20068853B /* Sources */,
+				ABA4EE8E2DD838A20068853B /* Frameworks */,
+				ABA4EE8F2DD838A20068853B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA4EE932DD838A20068853B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ABA4EE942DD838A20068853B /* StudentCompanionTests */,
+			);
+			name = StudentCompanionTests;
+			packageProductDependencies = (
+			);
+			productName = StudentCompanionTests;
+			productReference = ABA4EE912DD838A20068853B /* StudentCompanionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABA4EE9A2DD838A20068853B /* StudentCompanionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA4EEAB2DD838A20068853B /* Build configuration list for PBXNativeTarget "StudentCompanionUITests" */;
+			buildPhases = (
+				ABA4EE972DD838A20068853B /* Sources */,
+				ABA4EE982DD838A20068853B /* Frameworks */,
+				ABA4EE992DD838A20068853B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA4EE9D2DD838A20068853B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ABA4EE9E2DD838A20068853B /* StudentCompanionUITests */,
+			);
+			name = StudentCompanionUITests;
+			packageProductDependencies = (
+			);
+			productName = StudentCompanionUITests;
+			productReference = ABA4EE9B2DD838A20068853B /* StudentCompanionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA4EE792DD8389E0068853B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					ABA4EE802DD8389E0068853B = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					ABA4EE902DD838A20068853B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = ABA4EE802DD8389E0068853B;
+					};
+					ABA4EE9A2DD838A20068853B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = ABA4EE802DD8389E0068853B;
+					};
+				};
+			};
+			buildConfigurationList = ABA4EE7C2DD8389E0068853B /* Build configuration list for PBXProject "StudentCompanion" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA4EE782DD8389E0068853B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				ABC3822E2E15983400E4B1CD /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				ABC382312E15985600E4B1CD /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
+				ABB5F8412E581D7400C977F3 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				ABRC00012E7F000000000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ABA4EE822DD8389E0068853B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA4EE802DD8389E0068853B /* StuCo */,
+				ABA4EE902DD838A20068853B /* StudentCompanionTests */,
+				ABA4EE9A2DD838A20068853B /* StudentCompanionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA4EE7F2DD8389E0068853B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA4EE8F2DD838A20068853B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA4EE992DD838A20068853B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA4EE7D2DD8389E0068853B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA4EE8D2DD838A20068853B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA4EE972DD838A20068853B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA4EE932DD838A20068853B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA4EE802DD8389E0068853B /* StuCo */;
+			targetProxy = ABA4EE922DD838A20068853B /* PBXContainerItemProxy */;
+		};
+		ABA4EE9D2DD838A20068853B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA4EE802DD8389E0068853B /* StuCo */;
+			targetProxy = ABA4EE9C2DD838A20068853B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABA4EEA32DD838A20068853B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABA4EEA42DD838A20068853B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA4EEA62DD838A20068853B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudentCompanion/StuCo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudentCompanion/Preview Content\"";
+				DEVELOPMENT_TEAM = KQ6B773275;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StudentCompanion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StuCo;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "StuCo needs full access to your calendars to display and manage your events alongside your academic schedule, helping you manage your time effectively.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "StuCo needs access to your calendars to display your events alongside your academic schedule, helping you manage your time effectively.";
+				INFOPLIST_KEY_NSCalendarsWriteOnlyAccessUsageDescription = "StuCo needs to add events to your calendar to help you manage your academic schedule.";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "StuCo needs full access to your reminders to integrate and manage your tasks and academic deadlines, keeping everything organized in one place.";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "StuCo needs access to your reminders to integrate your tasks and academic deadlines, keeping everything organized in one place.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.StudentCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA4EEA72DD838A20068853B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudentCompanion/StuCo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudentCompanion/Preview Content\"";
+				DEVELOPMENT_TEAM = KQ6B773275;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StudentCompanion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StuCo;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "StuCo needs full access to your calendars to display and manage your events alongside your academic schedule, helping you manage your time effectively.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "StuCo needs access to your calendars to display your events alongside your academic schedule, helping you manage your time effectively.";
+				INFOPLIST_KEY_NSCalendarsWriteOnlyAccessUsageDescription = "StuCo needs to add events to your calendar to help you manage your academic schedule.";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "StuCo needs full access to your reminders to integrate and manage your tasks and academic deadlines, keeping everything organized in one place.";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "StuCo needs access to your reminders to integrate your tasks and academic deadlines, keeping everything organized in one place.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.StudentCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABA4EEA92DD838A20068853B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ6B773275;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.StudentCompanionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentCompanion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudentCompanion";
+			};
+			name = Debug;
+		};
+		ABA4EEAA2DD838A20068853B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ6B773275;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.StudentCompanionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentCompanion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudentCompanion";
+			};
+			name = Release;
+		};
+		ABA4EEAC2DD838A20068853B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ6B773275;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.StudentCompanionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudentCompanion;
+			};
+			name = Debug;
+		};
+		ABA4EEAD2DD838A20068853B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ6B773275;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.StudentCompanionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudentCompanion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA4EE7C2DD8389E0068853B /* Build configuration list for PBXProject "StudentCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA4EEA32DD838A20068853B /* Debug */,
+				ABA4EEA42DD838A20068853B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA4EEA52DD838A20068853B /* Build configuration list for PBXNativeTarget "StuCo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA4EEA62DD838A20068853B /* Debug */,
+				ABA4EEA72DD838A20068853B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA4EEA82DD838A20068853B /* Build configuration list for PBXNativeTarget "StudentCompanionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA4EEA92DD838A20068853B /* Debug */,
+				ABA4EEAA2DD838A20068853B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA4EEAB2DD838A20068853B /* Build configuration list for PBXNativeTarget "StudentCompanionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA4EEAC2DD838A20068853B /* Debug */,
+				ABA4EEAD2DD838A20068853B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ABB5F8412E581D7400C977F3 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+		ABC3822E2E15983400E4B1CD /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		ABC382312E15985600E4B1CD /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/google-api-objectivec-client-for-rest";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		ABRC00012E7F000000000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.27.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB63E0262E6B602200C82FD2 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Auth;
+		};
+		AB63E0282E6B602200C82FD2 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Functions;
+		};
+		AB63E02A2E6B602200C82FD2 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PostgREST;
+		};
+		AB63E02C2E6B602200C82FD2 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Realtime;
+		};
+		AB63E02E2E6B602200C82FD2 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Storage;
+		};
+		AB63E0362E6BAF7B00C82FD2 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABB5F8412E581D7400C977F3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		AB63E0382E6BAF7B00C82FD2 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABB5F8412E581D7400C977F3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		AB63E03A2E6BAF7B00C82FD2 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABB5F8412E581D7400C977F3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		AB63E03C2E6BAF7B00C82FD2 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABB5F8412E581D7400C977F3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		AB63E03E2E6BAF7B00C82FD2 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABB5F8412E581D7400C977F3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		ABB5F84D2E58216D00C977F3 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABB5F8412E581D7400C977F3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		ABC3822F2E15983400E4B1CD /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABC3822E2E15983400E4B1CD /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		ABC382322E15985600E4B1CD /* GoogleAPIClientForREST_Calendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABC382312E15985600E4B1CD /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Calendar;
+		};
+		ABRC00022E7F000000000002 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABRC00012E7F000000000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		ABRC00032E7F000000000003 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABRC00012E7F000000000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ABA4EE792DD8389E0068853B /* Project object */;
+}
