@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB0FB5472DF8DD0D0037ADA2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0FB5462DF8DD0D0037ADA2 /* WidgetKit.framework */; };
-		AB0FB5492DF8DD0D0037ADA2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0FB5482DF8DD0D0037ADA2 /* SwiftUI.framework */; };
-		AB0FB5582DF8DD0F0037ADA2 /* ClassLiveActivityExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AB0FB5442DF8DD0D0037ADA2 /* ClassLiveActivityExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AB63E0272E6B602200C82FD2 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = AB63E0262E6B602200C82FD2 /* Auth */; };
 		AB63E0292E6B602200C82FD2 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = AB63E0282E6B602200C82FD2 /* Functions */; };
 		AB63E02B2E6B602200C82FD2 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = AB63E02A2E6B602200C82FD2 /* PostgREST */; };
@@ -23,16 +20,11 @@
 		ABB5F84E2E58216D00C977F3 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = ABB5F84D2E58216D00C977F3 /* Supabase */; };
 		ABC382302E15983400E4B1CD /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = ABC3822F2E15983400E4B1CD /* GoogleSignIn */; };
 		ABC382332E15985600E4B1CD /* GoogleAPIClientForREST_Calendar in Frameworks */ = {isa = PBXBuildFile; productRef = ABC382322E15985600E4B1CD /* GoogleAPIClientForREST_Calendar */; };
+		ABRC00042E7F000000000004 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = ABRC00022E7F000000000002 /* RevenueCat */; };
+		ABRC00052E7F000000000005 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = ABRC00032E7F000000000003 /* RevenueCatUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AB0FB5562DF8DD0F0037ADA2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ABA4EE792DD8389E0068853B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB0FB5432DF8DD0D0037ADA2;
-			remoteInfo = ClassLiveActivityExtensionExtension;
-		};
 		ABA4EE922DD838A20068853B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABA4EE792DD8389E0068853B /* Project object */;
@@ -49,161 +41,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		AB0FB55D2DF8DD0F0037ADA2 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				AB0FB5582DF8DD0F0037ADA2 /* ClassLiveActivityExtensionExtension.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		AB0FB5442DF8DD0D0037ADA2 /* ClassLiveActivityExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ClassLiveActivityExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB0FB5462DF8DD0D0037ADA2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
-		AB0FB5482DF8DD0D0037ADA2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		AB53FCC02E75F242001D6391 /* StuCo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = StuCo.entitlements; path = StuCo/StuCo.entitlements; sourceTree = "<group>"; };
-		AB53FCC12E75F274001D6391 /* ClassLiveActivityExtensionExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClassLiveActivityExtensionExtension.entitlements; sourceTree = "<group>"; };
 		ABA4EE812DD8389E0068853B /* StuCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA4EE912DD838A20068853B /* StudentCompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentCompanionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA4EE9B2DD838A20068853B /* StudentCompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentCompanionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		AB0FB5592DF8DD0F0037ADA2 /* Exceptions for "ClassLiveActivityExtension" folder in "ClassLiveActivityExtensionExtension" target */ = {
+		ABFE00012EFE000000000001 /* Exceptions for "StudentCompanion" folder in "StuCo" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = AB0FB5432DF8DD0D0037ADA2 /* ClassLiveActivityExtensionExtension */;
-		};
-		AB0FB55E2DF8DD410037ADA2 /* Exceptions for "ClassLiveActivityExtension" folder in "StuCo" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				ClassActivityAttributes.swift,
-			);
 			target = ABA4EE802DD8389E0068853B /* StuCo */;
-		};
-		AB0FB5622DF8E1E00037ADA2 /* Exceptions for "StudentCompanion" folder in "StuCo" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				AlternateAppIcons.xcassets,
-				Info.plist,
-			);
-			target = ABA4EE802DD8389E0068853B /* StuCo */;
-		};
-		AB53FCBB2E755784001D6391 /* Exceptions for "StudentCompanion" folder in "ClassLiveActivityExtensionExtension" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"forma-djr-banner/FormaDJRBanner-Black-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-BlackItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-Bold-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-BoldItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-ExtraBold-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-ExtraBoldItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-ExtraLight-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-ExtraLightItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-Hairline-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-HairlineItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-Italic-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-Light-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-LightItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-Medium-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-MediumItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-Regular-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-Thin-Testing.ttf",
-				"forma-djr-banner/FormaDJRBanner-ThinItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-Black-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-BlackItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-Bold-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-BoldItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-ExtraBold-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-ExtraBoldItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-ExtraLight-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-ExtraLightItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-Hairline-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-HairlineItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-Italic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-Light-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-LightItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-Medium-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-MediumItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-Regular-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-Thin-Testing.ttf",
-				"forma-djr-banner/FormaDJRDeck-ThinItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-Black-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-BlackItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-Bold-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-BoldItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-ExtraBold-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-ExtraBoldItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-ExtraLight-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-ExtraLightItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-Hairline-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-HairlineItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-Italic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-Light-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-LightItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-Medium-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-MediumItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-Regular-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-Thin-Testing.ttf",
-				"forma-djr-banner/FormaDJRDisplay-ThinItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-Black-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-BlackItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-Bold-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-BoldItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-ExtraBold-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-ExtraBoldItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-ExtraLight-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-ExtraLightItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-Italic-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-Light-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-LightItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-Medium-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-MediumItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRMicro-Regular-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-Black-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-BlackItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-Bold-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-BoldItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-ExtraBold-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-ExtraBoldItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-ExtraLight-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-ExtraLightItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-Italic-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-Light-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-LightItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-Medium-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-MediumItalic-Testing.ttf",
-				"forma-djr-banner/FormaDJRText-Regular-Testing.ttf",
-				"forma-djr-banner/FormaDJRVariable-Italic-VF-Testing.ttf",
-				"forma-djr-banner/FormaDJRVariable-VF-Testing.ttf",
-			);
-			target = AB0FB5432DF8DD0D0037ADA2 /* ClassLiveActivityExtensionExtension */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AB0FB54A2DF8DD0D0037ADA2 /* ClassLiveActivityExtension */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				AB0FB55E2DF8DD410037ADA2 /* Exceptions for "ClassLiveActivityExtension" folder in "StuCo" target */,
-				AB0FB5592DF8DD0F0037ADA2 /* Exceptions for "ClassLiveActivityExtension" folder in "ClassLiveActivityExtensionExtension" target */,
-			);
-			path = ClassLiveActivityExtension;
-			sourceTree = "<group>";
-		};
 		ABA4EE832DD8389E0068853B /* StudentCompanion */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				AB0FB5622DF8E1E00037ADA2 /* Exceptions for "StudentCompanion" folder in "StuCo" target */,
-				AB53FCBB2E755784001D6391 /* Exceptions for "StudentCompanion" folder in "ClassLiveActivityExtensionExtension" target */,
+				ABFE00012EFE000000000001 /* Exceptions for "StudentCompanion" folder in "StuCo" target */,
 			);
 			path = StudentCompanion;
 			sourceTree = "<group>";
@@ -221,15 +79,6 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AB0FB5412DF8DD0D0037ADA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB0FB5492DF8DD0D0037ADA2 /* SwiftUI.framework in Frameworks */,
-				AB0FB5472DF8DD0D0037ADA2 /* WidgetKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ABA4EE7E2DD8389E0068853B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +96,8 @@
 				ABC382332E15985600E4B1CD /* GoogleAPIClientForREST_Calendar in Frameworks */,
 				AB63E0272E6B602200C82FD2 /* Auth in Frameworks */,
 				ABB5F84E2E58216D00C977F3 /* Supabase in Frameworks */,
+				ABRC00042E7F000000000004 /* RevenueCat in Frameworks */,
+				ABRC00052E7F000000000005 /* RevenueCatUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,25 +118,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB0FB5452DF8DD0D0037ADA2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AB0FB5462DF8DD0D0037ADA2 /* WidgetKit.framework */,
-				AB0FB5482DF8DD0D0037ADA2 /* SwiftUI.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		ABA4EE782DD8389E0068853B = {
 			isa = PBXGroup;
 			children = (
-				AB53FCC12E75F274001D6391 /* ClassLiveActivityExtensionExtension.entitlements */,
-				AB53FCC02E75F242001D6391 /* StuCo.entitlements */,
 				ABA4EE832DD8389E0068853B /* StudentCompanion */,
 				ABA4EE942DD838A20068853B /* StudentCompanionTests */,
 				ABA4EE9E2DD838A20068853B /* StudentCompanionUITests */,
-				AB0FB54A2DF8DD0D0037ADA2 /* ClassLiveActivityExtension */,
-				AB0FB5452DF8DD0D0037ADA2 /* Frameworks */,
 				ABA4EE822DD8389E0068853B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -296,7 +134,6 @@
 				ABA4EE812DD8389E0068853B /* StuCo.app */,
 				ABA4EE912DD838A20068853B /* StudentCompanionTests.xctest */,
 				ABA4EE9B2DD838A20068853B /* StudentCompanionUITests.xctest */,
-				AB0FB5442DF8DD0D0037ADA2 /* ClassLiveActivityExtensionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -304,28 +141,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB0FB5432DF8DD0D0037ADA2 /* ClassLiveActivityExtensionExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB0FB55A2DF8DD0F0037ADA2 /* Build configuration list for PBXNativeTarget "ClassLiveActivityExtensionExtension" */;
-			buildPhases = (
-				AB0FB5402DF8DD0D0037ADA2 /* Sources */,
-				AB0FB5412DF8DD0D0037ADA2 /* Frameworks */,
-				AB0FB5422DF8DD0D0037ADA2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				AB0FB54A2DF8DD0D0037ADA2 /* ClassLiveActivityExtension */,
-			);
-			name = ClassLiveActivityExtensionExtension;
-			packageProductDependencies = (
-			);
-			productName = ClassLiveActivityExtensionExtension;
-			productReference = AB0FB5442DF8DD0D0037ADA2 /* ClassLiveActivityExtensionExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		ABA4EE802DD8389E0068853B /* StuCo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABA4EEA52DD838A20068853B /* Build configuration list for PBXNativeTarget "StuCo" */;
@@ -333,12 +148,10 @@
 				ABA4EE7D2DD8389E0068853B /* Sources */,
 				ABA4EE7E2DD8389E0068853B /* Frameworks */,
 				ABA4EE7F2DD8389E0068853B /* Resources */,
-				AB0FB55D2DF8DD0F0037ADA2 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AB0FB5572DF8DD0F0037ADA2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				ABA4EE832DD8389E0068853B /* StudentCompanion */,
@@ -358,6 +171,8 @@
 				AB63E03A2E6BAF7B00C82FD2 /* PostgREST */,
 				AB63E03C2E6BAF7B00C82FD2 /* Realtime */,
 				AB63E03E2E6BAF7B00C82FD2 /* Storage */,
+				ABRC00022E7F000000000002 /* RevenueCat */,
+				ABRC00032E7F000000000003 /* RevenueCatUI */,
 			);
 			productName = StudentCompanion;
 			productReference = ABA4EE812DD8389E0068853B /* StuCo.app */;
@@ -419,9 +234,6 @@
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					AB0FB5432DF8DD0D0037ADA2 = {
-						CreatedOnToolsVersion = 16.1;
-					};
 					ABA4EE802DD8389E0068853B = {
 						CreatedOnToolsVersion = 16.1;
 					};
@@ -448,6 +260,7 @@
 				ABC3822E2E15983400E4B1CD /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				ABC382312E15985600E4B1CD /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
 				ABB5F8412E581D7400C977F3 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				ABRC00012E7F000000000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = ABA4EE822DD8389E0068853B /* Products */;
@@ -457,19 +270,11 @@
 				ABA4EE802DD8389E0068853B /* StuCo */,
 				ABA4EE902DD838A20068853B /* StudentCompanionTests */,
 				ABA4EE9A2DD838A20068853B /* StudentCompanionUITests */,
-				AB0FB5432DF8DD0D0037ADA2 /* ClassLiveActivityExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AB0FB5422DF8DD0D0037ADA2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ABA4EE7F2DD8389E0068853B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,13 +299,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AB0FB5402DF8DD0D0037ADA2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ABA4EE7D2DD8389E0068853B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -525,11 +323,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AB0FB5572DF8DD0F0037ADA2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB0FB5432DF8DD0D0037ADA2 /* ClassLiveActivityExtensionExtension */;
-			targetProxy = AB0FB5562DF8DD0F0037ADA2 /* PBXContainerItemProxy */;
-		};
 		ABA4EE932DD838A20068853B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABA4EE802DD8389E0068853B /* StuCo */;
@@ -543,62 +336,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		AB0FB55B2DF8DD0F0037ADA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = ClassLiveActivityExtensionExtension.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KQ6B773275;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ClassLiveActivityExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ClassLiveActivityExtension;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.StudentCompanion.ClassLiveActivityExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AB0FB55C2DF8DD0F0037ADA2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = ClassLiveActivityExtensionExtension.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KQ6B773275;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ClassLiveActivityExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ClassLiveActivityExtension;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.StudentCompanion.ClassLiveActivityExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		ABA4EEA32DD838A20068853B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -723,18 +460,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = StuCo/StuCo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StudentCompanion/StuCo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StudentCompanion/Preview Content\"";
 				DEVELOPMENT_TEAM = KQ6B773275;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = /Users/vtham/Desktop/StudentCompanion/StudentCompanion/Info.plist;
+				INFOPLIST_FILE = StudentCompanion/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = StuCo;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "StuCo needs full access to your calendars to display and manage your events alongside your academic schedule, helping you manage your time effectively.";
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "StuCo needs access to your calendars to display your events alongside your academic schedule, helping you manage your time effectively.";
+				INFOPLIST_KEY_NSCalendarsWriteOnlyAccessUsageDescription = "StuCo needs to add events to your calendar to help you manage your academic schedule.";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "StuCo needs full access to your reminders to integrate and manage your tasks and academic deadlines, keeping everything organized in one place.";
 				INFOPLIST_KEY_NSRemindersUsageDescription = "StuCo needs access to your reminders to integrate your tasks and academic deadlines, keeping everything organized in one place.";
-				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -759,18 +498,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = StuCo/StuCo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StudentCompanion/StuCo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StudentCompanion/Preview Content\"";
 				DEVELOPMENT_TEAM = KQ6B773275;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = /Users/vtham/Desktop/StudentCompanion/StudentCompanion/Info.plist;
+				INFOPLIST_FILE = StudentCompanion/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = StuCo;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "StuCo needs full access to your calendars to display and manage your events alongside your academic schedule, helping you manage your time effectively.";
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "StuCo needs access to your calendars to display your events alongside your academic schedule, helping you manage your time effectively.";
+				INFOPLIST_KEY_NSCalendarsWriteOnlyAccessUsageDescription = "StuCo needs to add events to your calendar to help you manage your academic schedule.";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "StuCo needs full access to your reminders to integrate and manage your tasks and academic deadlines, keeping everything organized in one place.";
 				INFOPLIST_KEY_NSRemindersUsageDescription = "StuCo needs access to your reminders to integrate your tasks and academic deadlines, keeping everything organized in one place.";
-				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -865,15 +606,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB0FB55A2DF8DD0F0037ADA2 /* Build configuration list for PBXNativeTarget "ClassLiveActivityExtensionExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB0FB55B2DF8DD0F0037ADA2 /* Debug */,
-				AB0FB55C2DF8DD0F0037ADA2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		ABA4EE7C2DD8389E0068853B /* Build configuration list for PBXProject "StudentCompanion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -935,6 +667,14 @@
 			requirement = {
 				branch = main;
 				kind = branch;
+			};
+		};
+		ABRC00012E7F000000000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.27.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -999,6 +739,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = ABC382312E15985600E4B1CD /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
 			productName = GoogleAPIClientForREST_Calendar;
+		};
+		ABRC00022E7F000000000002 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABRC00012E7F000000000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		ABRC00032E7F000000000003 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABRC00012E7F000000000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

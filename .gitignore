@@ -45,3 +45,13 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Secrets — never commit these
+StudentCompanion/Secrets.plist
+
+# Build artifacts
+build.log
+
+# Node
+node_modules/
+package-lock.json
