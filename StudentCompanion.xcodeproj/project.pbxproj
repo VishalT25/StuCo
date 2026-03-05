@@ -48,7 +48,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		ABFE00012EFE000000000001 /* Exceptions for "StudentCompanion" folder in "StuCo" target */ = {
+		AB0000000000000000000001 /* Exceptions for "StudentCompanion" folder in "StuCo" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -61,7 +61,7 @@
 		ABA4EE832DD8389E0068853B /* StudentCompanion */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				ABFE00012EFE000000000001 /* Exceptions for "StudentCompanion" folder in "StuCo" target */,
+				AB0000000000000000000001 /* Exceptions for "StudentCompanion" folder in "StuCo" target */,
 			);
 			path = StudentCompanion;
 			sourceTree = "<group>";
